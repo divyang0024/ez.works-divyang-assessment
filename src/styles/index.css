@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+.main-container {
+  @apply min-h-screen flex justify-center font-[oswald];
+}
+.content-container {
+  @apply flex flex-col md:flex-row bg-white border-red-500 justify-center items-center gap-8 p-6;
+}
+.banner-form-container {
+  @apply flex flex-col;
+}
+
+.banner-card-grid {
+  @apply flex-1 grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 gap-6;
+}

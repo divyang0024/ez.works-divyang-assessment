@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.banner-card {
+  @apply bg-[#112949] rounded-lg p-4 flex flex-col gap-2;
+}
+.banner-card-heading {
+  @apply flex gap-4 items-center justify-center md:justify-start md:text-base text-lg;
+}
+
+.banner-card-content {
+  @apply text-white md:text-base text-lg text-center md:text-justify leading-8;
+}
+
+.card-icon {
+  @apply w-14 md:w-10 h-auto;
+}
